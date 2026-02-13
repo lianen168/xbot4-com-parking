@@ -3,126 +3,467 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Premium 5-character domain XBOT4.COM for sale. Mysterious Infinite AI Robot – the ultimate name for next-generation AI.">
-    <title>XBOT4.COM - For Sale</title>
+    <title>Xbot4.com | The Domain for Industry 4.0 & Web4</title>
+    <meta name="description" content="Secure Xbot4.com. The structural foundation for the next generation of AI. Represents the fusion of X-Tech, Robotics, and the 4th Industrial Revolution. Buy now for $444.">
+    <meta name="keywords" content="Xbot4, Industry 4.0, Web4 Domain, Quadruped Robots, Level 4 Autonomy, 4-Axis Robotics, Tech Branding, Premium Domain">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://xbot4.com/">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;700&family=Teko:wght@300;500;700&display=swap" rel="stylesheet">
+
     <style>
-        body {
+        :root {
+            --primary: #00e5ff; /* Cyan - Future */
+            --secondary: #ff4d4d; /* Alert Red - The X Factor */
+            --bg-dark: #08080a;
+            --bg-grid: #101014;
+            --text-main: #e0e0e0;
+            --border-color: #333;
+        }
+
+        * {
             margin: 0;
             padding: 0;
-            font-family: 'Orbitron', 'Courier New', monospace;
-            background: #000;
-            color: #0ff;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Khand', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            overflow-x: hidden;
+            line-height: 1.5;
+            /* Grid Background */
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        a { text-decoration: none; transition: 0.3s; }
+
+        /* --- Hero Section --- */
+        header {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            overflow: hidden;
+            padding: 20px;
+            position: relative;
         }
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
-        
-        .container {
-            max-width: 900px;
-            margin: 80px auto;
-            padding: 40px;
-            background: rgba(0, 10, 30, 0.85);
-            border: 2px solid #0ff;
-            box-shadow: 0 0 30px #0ff, inset 0 0 20px #00f;
-            border-radius: 10px;
-        }
-        h1 {
-            font-size: 5em;
-            letter-spacing: 15px;
+
+        /* Dynamic Font Effect */
+        .brand-container {
+            font-family: 'Teko', sans-serif;
+            font-size: clamp(4rem, 15vw, 10rem);
+            font-weight: 700;
             text-transform: uppercase;
+            line-height: 1;
             margin-bottom: 20px;
-            text-shadow: 0 0 20px #0ff, 0 0 40px #00f;
-            animation: glow 2s ease-in-out infinite alternate;
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
         }
-        h2 {
-            font-size: 2em;
-            margin: 30px 0;
-            color: #0af;
-            text-shadow: 0 0 10px #0ff;
+
+        .part-xbot {
+            color: #fff;
+            position: relative;
+            mix-blend-mode: exclusion;
         }
-        p {
-            font-size: 1.3em;
-            line-height: 1.8;
-            margin: 25px auto;
-            max-width: 750px;
+        
+        .part-4 {
+            color: var(--primary);
+            position: relative;
+            display: inline-block;
+            text-shadow: 
+                4px 4px 0px rgba(0, 229, 255, 0.2),
+                -4px -4px 0px rgba(255, 77, 77, 0.2);
+            animation: quadShake 3s infinite steps(4);
         }
-        .price {
-            font-size: 3em;
-            color: #f0f;
-            margin: 50px 0;
-            text-shadow: 0 0 20px #f0f;
-            animation: pulse 1.5s infinite;
+
+        .part-com {
+            font-size: 0.4em;
+            color: #666;
+            letter-spacing: 2px;
         }
-        .installment {
-            font-size: 1.6em;
-            color: #0ff;
-            margin: 20px 0;
+
+        @keyframes quadShake {
+            0% { transform: translate(0,0); }
+            25% { transform: translate(2px, 2px); }
+            50% { transform: translate(-2px, -2px); }
+            75% { transform: translate(-2px, 2px); }
+            100% { transform: translate(0,0); }
         }
-        .contact {
-            font-size: 1.8em;
-            margin: 60px 0;
+
+        .tagline {
+            font-size: 1.4rem;
+            color: #aaa;
+            margin-bottom: 50px;
+            background: #000;
+            padding: 5px 20px;
+            border: 1px solid #333;
         }
-        .email {
-            color: #f0f;
-            text-decoration: none;
-            border-bottom: 2px dotted #f0f;
-        }
-        .footer {
-            margin-top: 100px;
-            font-size: 0.9em;
-            color: #066;
-        }
-        .infinity {
-            position: fixed;
-            top: 0;
-            left: 0;
+
+        /* Pricing Card - Square/Boxy Look */
+        .pricing-cube {
+            background: rgba(16, 16, 20, 0.9);
+            border: 4px solid #222;
+            padding: 40px 60px;
+            position: relative;
+            max-width: 450px;
             width: 100%;
-            height: 100%;
-            pointer-events: none;
-            opacity: 0.15;
-            background: repeating-linear-gradient(45deg, transparent, transparent 10px, #0ff 10px, #0ff 20px);
-            animation: infinity-move 20s linear infinite;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
         }
-        @keyframes glow {
-            from { text-shadow: 0 0 10px #0ff, 0 0 20px #00f; }
-            to { text-shadow: 0 0 30px #0ff, 0 0 60px #00f; }
+
+        /* Corner Accents */
+        .pricing-cube::before {
+            content: ''; position: absolute; top: -4px; left: -4px; width: 20px; height: 20px; background: var(--secondary);
         }
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
+        .pricing-cube::after {
+            content: ''; position: absolute; bottom: -4px; right: -4px; width: 20px; height: 20px; background: var(--primary);
         }
-        @keyframes infinity-move {
-            0% { background-position: 0 0; }
-            100% { background-position: 100px 100px; }
+
+        .price {
+            font-family: 'Teko';
+            font-size: 4.5rem;
+            color: #fff;
+            line-height: 1;
+            margin-bottom: 5px;
         }
+
+        .installments {
+            display: block;
+            color: var(--primary);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .btn-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 15px;
+            font-family: 'Teko';
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            transition: 0.2s;
+            font-weight: 500;
+        }
+
+        .btn-buy {
+            background: var(--primary);
+            color: #000;
+            grid-column: span 2;
+        }
+        .btn-buy:hover {
+            background: #fff;
+            transform: scale(1.02);
+        }
+
+        .btn-contact {
+            background: transparent;
+            border: 2px solid #444;
+            color: #ccc;
+            grid-column: span 2;
+        }
+        .btn-contact:hover {
+            border-color: var(--secondary);
+            color: var(--secondary);
+        }
+
+        /* --- Philosophy Section --- */
+        .concept-section {
+            padding: 100px 20px;
+            background: #050505;
+            text-align: center;
+            border-top: 1px solid #222;
+        }
+
+        .formula {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            font-family: 'Teko';
+            flex-wrap: wrap;
+        }
+
+        .box {
+            border: 1px solid #444;
+            padding: 10px 25px;
+            background: #111;
+        }
+        .highlight-x { color: var(--secondary); border-color: var(--secondary); }
+        .highlight-4 { color: var(--primary); border-color: var(--primary); }
+
+        .concept-text {
+            max-width: 800px;
+            margin: 0 auto;
+            color: #888;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        /* --- 12 Areas Section --- */
+        .grid-section {
+            padding: 100px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .section-header h2 {
+            font-family: 'Teko';
+            font-size: 3rem;
+            margin-bottom: 5px;
+        }
+        .section-header span { color: var(--primary); }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-item {
+            background: #0f0f12;
+            border: 1px solid #222;
+            padding: 25px;
+            position: relative;
+            transition: 0.3s;
+        }
+        
+        /* Crosshair corners */
+        .grid-item::after {
+            content: '+';
+            position: absolute;
+            top: 10px; right: 10px;
+            color: #333;
+            font-family: monospace;
+        }
+
+        .grid-item:hover {
+            border-color: var(--primary);
+            background: #15151a;
+        }
+
+        .grid-item h3 {
+            font-family: 'Teko';
+            font-size: 1.6rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .grid-item p {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        .item-num {
+            color: var(--secondary);
+            font-size: 0.8rem;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* --- Footer --- */
+        footer {
+            padding: 50px 20px;
+            text-align: center;
+            background: #000;
+            color: #444;
+            border-top: 4px solid #222;
+        }
+
+        /* Toast */
+        #toast {
+            visibility: hidden;
+            min-width: 250px;
+            background-color: var(--primary);
+            color: #000;
+            text-align: center;
+            padding: 16px;
+            position: fixed;
+            z-index: 100;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            font-weight: bold;
+            font-family: 'Teko';
+            font-size: 1.2rem;
+            border: 2px solid #fff;
+        }
+        #toast.show { visibility: visible; animation: fadein 0.5s, fadeout 0.5s 2.5s; }
+        
+        @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
+        @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
+
     </style>
 </head>
 <body>
-    <div class="infinity"></div>
-    <div class="container">
-        <h1>XBOT4.COM</h1>
-        <h2>5 Characters. Infinite Intelligence.</h2>
-        
-        <p>XBot + 4: The Mysterious Infinite AI Robot.</p>
-        <p>A premium domain that evokes unlimited potential, next-generation artificial intelligence, and the lucky power of the number 4 in the digital age.</p>
-        <p>Perfect for an advanced AI chatbot, autonomous robot project, xAI-inspired venture, or groundbreaking neural network.</p>
-        <p>The future of infinite AI begins here.</p>
-        
-        <div class="price">$4,200 USD</div>
-        <div class="installment">or 6 monthly installments of $700</div>
-        
-        <div class="contact">
-            Ready to claim this powerful AI domain?<br>
-            Contact: <a href="mailto:joshua369x@gmail.com" class="email">joshua369x@gmail.com</a>
+
+    <header>
+        <div class="brand-container">
+            <span class="part-xbot">XBOT</span>
+            <span class="part-4">4</span>
+            <span class="part-com">.COM</span>
         </div>
-        
-        <p>Own the name that defines the next era of mysterious, boundless AI.</p>
-        
-        <div class="footer">
-            This premium domain is privately offered for sale.<br>
-            Serious inquiries only – discretion assured.
+        <p class="tagline">The 4th Generation of Automated Intelligence.</p>
+
+        <div class="pricing-cube">
+            <div class="price">$444 <span style="font-size:2rem">USD</span></div>
+            <span class="installments">Split into 4 Monthly Payments</span>
+            
+            <div class="btn-container">
+                <button class="btn btn-buy" onclick="openBuyLink()">Acquire Domain</button>
+                <button class="btn btn-contact" onclick="copyEmail()">Contact</button>
+            </div>
         </div>
-    </div>
+    </header>
+
+    <section class="concept-section">
+        <div class="formula">
+            <div class="box highlight-x">X</div>
+            <span>+</span>
+            <div class="box">BOT</div>
+            <span>+</span>
+            <div class="box highlight-4">4</div>
+        </div>
+        <div class="concept-text">
+            <p>
+                <strong>X</strong> represents the hybrid, the cross-platform variable.
+                <strong>Bot</strong> is the intelligent agent.
+                <strong>4</strong> is the number of stability, foundation, and the future (Web4, Industry 4.0).
+                <br><br>
+                <strong>Xbot4</strong> is the structural base for the next industrial revolution.
+            </p>
+        </div>
+    </section>
+
+    <main class="grid-section">
+        <div class="section-header">
+            <h2>12 Pillars of <span>Xbot4</span></h2>
+            <p>Structure. Stability. Scale.</p>
+        </div>
+
+        <div class="grid">
+            <!-- 1 -->
+            <article class="grid-item">
+                <span class="item-num">01</span>
+                <h3>Industry 4.0</h3>
+                <p>The fourth industrial revolution. Bots that interconnect via IoT and cloud computing for smart factories.</p>
+            </article>
+            <!-- 2 -->
+            <article class="grid-item">
+                <span class="item-num">02</span>
+                <h3>Web4 (The Symbiotic Web)</h3>
+                <p>Autonomous agents navigating the decentralized, emotive, and intelligent web.</p>
+            </article>
+            <!-- 3 -->
+            <article class="grid-item">
+                <span class="item-num">03</span>
+                <h3>Level 4 Autonomy</h3>
+                <p>High driving automation. Vehicles (X-Bots) that can drive themselves under most conditions.</p>
+            </article>
+            <!-- 4 -->
+            <article class="grid-item">
+                <span class="item-num">04</span>
+                <h3>Quadruped Robots</h3>
+                <p>4-legged bots (like Spot) designed for stability in rough terrain construction and inspection.</p>
+            </article>
+            <!-- 5 -->
+            <article class="grid-item">
+                <span class="item-num">05</span>
+                <h3>4th Dimension AI</h3>
+                <p>Predictive bots that analyze time as a variable, forecasting future trends with precision.</p>
+            </article>
+            <!-- 6 -->
+            <article class="grid-item">
+                <span class="item-num">06</span>
+                <h3>X4 Security</h3>
+                <p>Quad-layer cybersecurity bots protecting Network, Cloud, App, and Endpoint.</p>
+            </article>
+            <!-- 7 -->
+            <article class="grid-item">
+                <span class="item-num">07</span>
+                <h3>GPT-4 / LLM-4</h3>
+                <p>The standard for 4th generation Large Language Models and conversational agents.</p>
+            </article>
+            <!-- 8 -->
+            <article class="grid-item">
+                <span class="item-num">08</span>
+                <h3>4-Axis Machining</h3>
+                <p>CNC robotics capable of complex manufacturing with 4 degrees of freedom.</p>
+            </article>
+            <!-- 9 -->
+            <article class="grid-item">
+                <span class="item-num">09</span>
+                <h3>Quadcopters (X-Frame)</h3>
+                <p>The most popular drone configuration. X-shaped frames with 4 rotors for aerial surveillance.</p>
+            </article>
+            <!-- 10 -->
+            <article class="grid-item">
+                <span class="item-num">10</span>
+                <h3>Logistics (4 Directions)</h3>
+                <p>Warehousing bots that move omni-directionally (North, South, East, West) on grid floors.</p>
+            </article>
+            <!-- 11 -->
+            <article class="grid-item">
+                <span class="item-num">11</span>
+                <h3>4K Vision</h3>
+                <p>Robots equipped with 4K UHD cameras for high-fidelity inspection and medical surgery.</p>
+            </article>
+            <!-- 12 -->
+            <article class="grid-item">
+                <span class="item-num">12</span>
+                <h3>X-Bot Framework</h3>
+                <p>Cross-platform (X) bot development tools for iOS, Android, Web, and Desktop (4 screens).</p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Xbot4.com. Built on Solid Ground.</p>
+        <p><a href="#" onclick="copyEmail()" style="color:#666;">joshua369x@gmail.com</a></p>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast">Email Copied: joshua369x@gmail.com</div>
+
+    <script>
+        function openBuyLink() {
+            window.open('https://www.spaceship.com/s/buy/xbot4.com/eOzXgSYVuAKBscG7', '_blank');
+        }
+
+        function copyEmail() {
+            const email = "joshua369x@gmail.com";
+            navigator.clipboard.writeText(email).then(function() {
+                var toast = document.getElementById("toast");
+                toast.className = "show";
+                setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+            }, function(err) {
+                alert("Please manually copy: " + email);
+            });
+        }
+    </script>
 </body>
 </html>
